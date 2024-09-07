@@ -1,0 +1,60 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 3rem;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#status {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+#reset {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+}
+
+#reset:hover {
+    background-color: #ff4747;
+    color: white;
+}
+
+.square:hover {
+    background-color: #e0e0e0;
+}
