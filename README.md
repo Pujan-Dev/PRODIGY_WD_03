@@ -39,11 +39,3 @@ To play the game, simply open the `index.html` file in any modern web browser. N
 - **Score Tracking**: Add functionality to keep track of player scores across multiple rounds.
 - **Animations**: Enhance the game with animations for a better user experience.
 
-
-## License
-
-This project is licensed under the MIT License.
-
----
-# PRODIGY_WD_03
-# PRODIGY_WD_03
